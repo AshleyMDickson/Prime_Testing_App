@@ -5,13 +5,13 @@ using namespace std;
 
 int main() {
 
-	int x {};
-	vector<int> factors;
+	long long x {};
+	vector<long long> factors;
 	cout << "Enter a whole number here: ";
 
 	if(cin >> x){
 		
-		for(int i = 2; i < x/2 + 1; i++){
+		for(long long i = 2; i < x/2 + 1; i++){
 			if(x%i == 0){
 				factors.push_back(i);
 			}
