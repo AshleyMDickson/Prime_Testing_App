@@ -1,5 +1,7 @@
 #include <iostream>
 #include <limits>
+#include "function.h"
+
 using namespace std;
 
 int main(){
@@ -36,5 +38,9 @@ int main(){
 	}
 	
 	cout << "Your numbers are " << a << " and " << b << "." << endl;
+	
+	for(int i = a; i <= b; i++){
+		factors(i);
+	}
 
 }
