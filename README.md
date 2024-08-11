@@ -11,4 +11,8 @@ A playground app with which to try out some C++ development.
 5. Sort input numbers by 'primality', i.e. number of prime factors from `0` (most prime) to `max` (least prime).
 6. Add twin-primes finder.
 
+<<<<<<< HEAD
 Also: Need to merge with C++ multi-file project template to expand functionality. -- DONE.
+=======
+Also: Need to merge with `C++` multi-file project template to expand functionality. -- DONE.
+>>>>>>> 100a1a50803416d0720486c9e8e68ed60f01a41f
